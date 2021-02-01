@@ -20,19 +20,22 @@
   align-items: center;
   border-radius: 3px;
 }
-.grid_container > .col,.score,.result
+.grid_container > .col,.score,.result,.name
 {
-  width: 60%;
-  padding: 10%;
+  width: 80%;
+  /* padding: 10%; */
   justify-content: space-evenly;
 }
-
+.name
+{
+  display: flex;
+  font-size: 20px;
+}
 .score
 {
   display: flex;
   font-size: 50px;
   margin: 2px;
-
 }
 .result
 {
